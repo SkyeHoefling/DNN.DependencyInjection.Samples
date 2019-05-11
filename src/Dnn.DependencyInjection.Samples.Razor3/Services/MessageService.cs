@@ -1,6 +1,7 @@
-﻿using CustomModule.Sandbox.Razor.Services.Interfaces;
+﻿
+using Dnn.DependencyInjection.Samples.Razor3.Services.Interfaces;
 
-namespace CustomModule.Sandbox.Razor.Services
+namespace Dnn.DependencyInjection.Samples.Razor3.Services
 {
     internal class MessageService : IMessageService
     {

@@ -1,4 +1,4 @@
-﻿namespace CustomModule.Sandbox.Razor.Services.Interfaces
+﻿namespace Dnn.DependencyInjection.Samples.Razor3.Services.Interfaces
 {
     public interface IMessageService
     {

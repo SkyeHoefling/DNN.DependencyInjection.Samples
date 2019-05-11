@@ -1,10 +1,10 @@
-﻿using CustomModule.Sandbox.Razor.Models;
-using CustomModule.Sandbox.Razor.Services;
-using CustomModule.Sandbox.Razor.Services.Interfaces;
-using DotNetNuke.Contracts;
+﻿using Dnn.DependencyInjection.Samples.Razor3.Models;
+using Dnn.DependencyInjection.Samples.Razor3.Services;
+using Dnn.DependencyInjection.Samples.Razor3.Services.Interfaces;
+using DotNetNuke.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CustomModule.Sandbox.Razor
+namespace Dnn.DependencyInjection.Samples.Razor3
 {
     class Startup : IServiceRegistration
     {

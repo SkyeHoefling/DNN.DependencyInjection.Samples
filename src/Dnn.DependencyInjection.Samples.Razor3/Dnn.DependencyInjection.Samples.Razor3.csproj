@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DNN Platform\DotNetNuke.Contracts\DotNetNuke.Contracts.csproj" />
+    <PackageReference Include="DotNetNuke.DependencyInjection" Version="9.4.0" />
   </ItemGroup>
 
 </Project>

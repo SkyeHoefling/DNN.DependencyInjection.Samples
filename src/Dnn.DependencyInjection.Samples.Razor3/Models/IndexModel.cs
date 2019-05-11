@@ -1,6 +1,6 @@
-﻿using CustomModule.Sandbox.Razor.Services.Interfaces;
+﻿using Dnn.DependencyInjection.Samples.Razor3.Services.Interfaces;
 
-namespace CustomModule.Sandbox.Razor.Models
+namespace Dnn.DependencyInjection.Samples.Razor3.Models
 {
     public class IndexModel
     {
