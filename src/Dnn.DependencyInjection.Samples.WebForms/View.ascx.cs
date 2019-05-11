@@ -1,12 +1,7 @@
-using System;
-using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
-using DotNetNuke.Entities.Modules.Actions;
-using DotNetNuke.Services.Localization;
-using DotNetNuke.Security;
 
 
-namespace Samples.Modules.WebForms.HelloWorld
+namespace Dnn.DependencyInjection.Samples.WebForms
 {
 
     public partial class View : PortalModuleBase

@@ -1,3 +1,3 @@
-<%@ Control Language="C#" AutoEventWireup="false" Inherits="Samples.Modules.WebForms.HelloWorld.Settings" Codebehind="Settings.ascx.cs" %>
+<%@ Control Language="C#" AutoEventWireup="false" Inherits="Dnn.DependencyInjection.Samples.WebForms.Settings" Codebehind="Settings.ascx.cs" %>
 
 

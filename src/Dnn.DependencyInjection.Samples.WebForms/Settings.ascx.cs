@@ -3,7 +3,7 @@ using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
 
 
-namespace Samples.Modules.WebForms.HelloWorld
+namespace Dnn.DependencyInjection.Samples.WebForms
 {
 
     public partial class Settings : ModuleSettingsBase

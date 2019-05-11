@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Samples.Modules.WebForms.HelloWorld {
+namespace Dnn.DependencyInjection.Samples.WebForms {
     
     
     public partial class View {
