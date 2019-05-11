@@ -1,0 +1,9 @@
+﻿<h3>Samples.Modules.WebForms.HelloWorld - Release History</h3>
+<p class="Contributor">
+	Module Developed by IowaComputerGurus, Inc.
+</p>
+<hr/>
+<div class="License">
+	<p>Contact IowaComputerGurus for release history.</p>
+	
+</div>

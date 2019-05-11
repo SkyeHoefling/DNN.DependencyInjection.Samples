@@ -1,0 +1,7 @@
+﻿<div class="License">
+	<h3>License</h3>
+    <p>
+        Usage of this application is governed by the terms and conditions of the IowaComputerGurus' Statement of Work governing the application development process.
+    </p>
+
+</div>
