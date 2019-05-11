@@ -12,6 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1CC5B9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.Mvc", "src\Dnn.DependencyInjection.Samples.Mvc\Dnn.DependencyInjection.Samples.Mvc.csproj", "{E626CA2A-6823-43E9-AD78-243F8FCD321A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9349F261-AA16-4F9A-973E-D4EFFBF70B65}"
+	ProjectSection(SolutionItems) = preProject
+		src\Dnn.DependencyInjection.Samples.WebForms\cake.config = src\Dnn.DependencyInjection.Samples.WebForms\cake.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.WebForms", "src\Dnn.DependencyInjection.Samples.WebForms\Dnn.DependencyInjection.Samples.WebForms.csproj", "{334B7F1B-8CB0-42FD-82C8-50D1545440E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +33,10 @@ Global
 		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334B7F1B-8CB0-42FD-82C8-50D1545440E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334B7F1B-8CB0-42FD-82C8-50D1545440E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334B7F1B-8CB0-42FD-82C8-50D1545440E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334B7F1B-8CB0-42FD-82C8-50D1545440E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
