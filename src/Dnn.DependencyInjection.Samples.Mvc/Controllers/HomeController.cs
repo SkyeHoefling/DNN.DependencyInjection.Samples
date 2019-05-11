@@ -5,32 +5,34 @@
 ' CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 ' DEALINGS IN THE SOFTWARE.
 */
-using DotNetNuke.Web.Mvc.Framework.Controllers;
-using DotNetNuke.Collections;
-using System.Web.Mvc;
+using Dnn.DependencyInjection.Samples.Mvc.Models;
+using Dnn.DependencyInjection.Samples.Mvc.Services.Interfaces;
 using DotNetNuke.Security;
 using DotNetNuke.Web.Mvc.Framework.ActionFilters;
+using DotNetNuke.Web.Mvc.Framework.Controllers;
+using System.Web.Mvc;
 
 namespace Dnn.DependencyInjection.Samples.Mvc.Controllers
 {
-    [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Edit)]
+    [DnnModuleAuthorize(AccessLevel = SecurityAccessLevel.Anonymous)]
     [DnnHandleError]
     public class HomeController : DnnController
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
-        [ModuleAction(ControlKey = "Edit", TitleKey = "AddItem")]
-        public ActionResult Index()
+        protected IMessageService MessageService { get; }
+        public HomeController(IMessageService messageService)
         {
-            return View();
+            MessageService = messageService;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <returns></returns>
+        public ActionResult Index()
+        {
+            var model = new HelloWorldModel
+            {
+                Message = MessageService.GetMessage()
+            };
+            return View(model);
+        }
+
         public ActionResult Edit()
         {
             ViewBag.Message = "Your application description page.";

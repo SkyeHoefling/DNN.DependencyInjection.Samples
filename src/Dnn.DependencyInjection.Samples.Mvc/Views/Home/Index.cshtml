@@ -1,5 +1,6 @@
 @using DotNetNuke.Web.Client.ClientResourceManagement
 @using DotNetNuke.Web.Mvc.Helpers
+@model Dnn.DependencyInjection.Samples.Mvc.Models.HelloWorldModel
 
 @{
     ClientResourceManager.RegisterStyleSheet(Dnn.DnnPage, "~/DesktopModules/MVC/Dnn.DependencyInjection.Samples.Mvc/Resources/bootstrap/css/bootstrap.min.css");
@@ -13,7 +14,7 @@
 
 <div id="Home-@Dnn.ModuleContext.ModuleId" class="jumbotron">
     <h1>MVC Module</h1>
-    <p class="lead">Initial MVC Module</p>
+    <p class="lead">@Model.Message</p>
 </div>
 
 <div class="row">
