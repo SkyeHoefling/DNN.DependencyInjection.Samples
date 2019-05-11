@@ -4,7 +4,7 @@
         <name>Dnn.DependencyInjection.Samples.WebForms</name>
     </assembly>
     <members>
-        <member name="F:Samples.Modules.WebForms.HelloWorld.View.ContentLiteral">
+        <member name="F:Dnn.DependencyInjection.Samples.WebForms.View.ContentLiteral">
             <summary>
             ContentLiteral control.
             </summary>

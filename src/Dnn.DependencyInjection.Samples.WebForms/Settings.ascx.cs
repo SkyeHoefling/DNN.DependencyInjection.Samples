@@ -1,6 +1,6 @@
-using System;
-using DotNetNuke.Services.Exceptions;
 using DotNetNuke.Entities.Modules;
+using DotNetNuke.Services.Exceptions;
+using System;
 
 
 namespace Dnn.DependencyInjection.Samples.WebForms
