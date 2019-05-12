@@ -10,14 +10,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1CC5B9
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.Mvc", "src\Dnn.DependencyInjection.Samples.Mvc\Dnn.DependencyInjection.Samples.Mvc.csproj", "{E626CA2A-6823-43E9-AD78-243F8FCD321A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9349F261-AA16-4F9A-973E-D4EFFBF70B65}"
 	ProjectSection(SolutionItems) = preProject
 		src\Dnn.DependencyInjection.Samples.WebForms\cake.config = src\Dnn.DependencyInjection.Samples.WebForms\cake.config
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.WebForms", "src\Dnn.DependencyInjection.Samples.WebForms\Dnn.DependencyInjection.Samples.WebForms.csproj", "{AD1A58BB-FBF7-4212-BF69-F81A84652ACA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.Mvc", "src\Dnn.DependencyInjection.Samples.Mvc\Dnn.DependencyInjection.Samples.Mvc.csproj", "{D79AE31F-AEF2-464C-AE90-DE7E0912B86E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +29,14 @@ Global
 		{4BA1F626-1455-44D9-8FB5-6C8EB9628D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BA1F626-1455-44D9-8FB5-6C8EB9628D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BA1F626-1455-44D9-8FB5-6C8EB9628D89}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E626CA2A-6823-43E9-AD78-243F8FCD321A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AD1A58BB-FBF7-4212-BF69-F81A84652ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AD1A58BB-FBF7-4212-BF69-F81A84652ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD1A58BB-FBF7-4212-BF69-F81A84652ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD1A58BB-FBF7-4212-BF69-F81A84652ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79AE31F-AEF2-464C-AE90-DE7E0912B86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79AE31F-AEF2-464C-AE90-DE7E0912B86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79AE31F-AEF2-464C-AE90-DE7E0912B86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79AE31F-AEF2-464C-AE90-DE7E0912B86E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

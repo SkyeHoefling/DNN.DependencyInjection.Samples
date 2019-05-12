@@ -1,6 +1,6 @@
 ﻿namespace Dnn.DependencyInjection.Samples.Mvc.Models
 {
-    public class HelloWorldModel
+    public class HelloWorld
     {
         public string Message { get; set; }
     }
