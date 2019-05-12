@@ -1,4 +1,5 @@
 using Dnn.DependencyInjection.Samples.Mvc.Models;
+using Dnn.DependencyInjection.Samples.Mvc.Services.Interfaces;
 using DotNetNuke.Security;
 using DotNetNuke.Web.Mvc.Framework.ActionFilters;
 using DotNetNuke.Web.Mvc.Framework.Controllers;
@@ -10,11 +11,18 @@ namespace Dnn.DependencyInjection.Samples.Mvc.Controllers
     [DnnHandleError]
     public class HomeController : DnnController
     {
+        protected IMessageService MessageService { get; }
+
+        public HomeController(IMessageService messageService)
+        {
+            MessageService = messageService;
+        }
+
         public ActionResult Index()
         {
             var model = new HelloWorld
             {
-                Message = "Hello World"
+                Message = MessageService.GetMessage()
             };
             return View(model);
         }

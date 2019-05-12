@@ -1,9 +1,9 @@
 @using DotNetNuke.Web.Client.ClientResourceManagement
 @using DotNetNuke.Web.Mvc.Helpers
-@*inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage<Dnn.DependencyInjection.Samples.Mvc.Models.HelloWorld>
-    *@
+@inherits DotNetNuke.Web.Mvc.Framework.DnnWebViewPage<Dnn.DependencyInjection.Samples.Mvc.Models.HelloWorld>
+
 @{
     ViewBag.Title = "Home Page";
 }
 
-<h1>Hello World</h1>
+<h1>@Model.Message</h1>
