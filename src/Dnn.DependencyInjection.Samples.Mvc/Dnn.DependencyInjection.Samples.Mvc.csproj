@@ -44,11 +44,11 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DotNetNuke, Version=9.3.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Core.9.3.2\lib\net45\DotNetNuke.dll</HintPath>
+    <Reference Include="DotNetNuke, Version=9.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\DotNetNuke.Core.9.4.0.156-alpha\lib\net45\DotNetNuke.dll</HintPath>
     </Reference>
     <Reference Include="DotNetNuke.DependencyInjection, Version=9.4.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.DependencyInjection.9.4.0\lib\netstandard2.0\DotNetNuke.DependencyInjection.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.DependencyInjection.9.4.0.156-alpha\lib\netstandard2.0\DotNetNuke.DependencyInjection.dll</HintPath>
     </Reference>
     <Reference Include="DotNetNuke.Web, Version=9.3.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\DotNetNuke.Web.9.3.2\lib\net45\DotNetNuke.Web.dll</HintPath>
@@ -63,7 +63,7 @@
       <HintPath>..\..\packages\DotNetNuke.Web.9.3.2\lib\net45\DotNetNuke.WebUtility.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\DotNetNuke.Core.9.3.2\lib\net45\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+      <HintPath>..\..\packages\DotNetNuke.Core.9.4.0.156-alpha\lib\net45\Microsoft.ApplicationBlocks.Data.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">

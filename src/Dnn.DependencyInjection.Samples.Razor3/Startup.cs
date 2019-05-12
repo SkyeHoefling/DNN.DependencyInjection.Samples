@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Dnn.DependencyInjection.Samples.Razor3
 {
-    class Startup : IServiceRegistration
+    class Startup : IDnnStartup
     {
         public void ConfigureServices(IServiceCollection services)
         {

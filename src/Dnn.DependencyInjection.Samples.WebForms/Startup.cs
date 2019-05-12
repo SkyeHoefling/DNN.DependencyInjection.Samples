@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Dnn.DependencyInjection.Samples.WebForms
 {
-    public class Startup : IServiceRegistration
+    public class Startup : IDnnStartup
     {
         public void ConfigureServices(IServiceCollection services)
         {
