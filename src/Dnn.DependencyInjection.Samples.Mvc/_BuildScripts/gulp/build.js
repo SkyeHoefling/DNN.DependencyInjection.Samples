@@ -33,7 +33,7 @@ gulp.task('assemblyInfo', function() {
     .pipe(gulp.dest('.'));
 });
 
-gulp.task('build', ['nuget', 'assemblyInfo'], function() {
+gulp.task('build', [/*'nuget',*/ 'assemblyInfo'], function() {
   return gulp.src('./Dnn.DependencyInjection.Samples.Mvc.csproj').pipe(
     msbuild({
       toolsVersion: 'auto',
