@@ -1,7 +1,16 @@
-﻿namespace Dnn.DependencyInjection.Samples.Razor3.Models
+﻿using Dnn.DependencyInjection.Samples.Razor3.Services.Interfaces;
+
+namespace Dnn.DependencyInjection.Samples.Razor3.Models
 {
     public class IndexModel
     {
-        public string Title => "Hello World!";
+        protected IMessageService MessageService { get; }
+
+        public IndexModel(IMessageService messageService)
+        {
+            MessageService = messageService;
+        }
+
+        public string Title => MessageService.GetMessage();
     }
 }
