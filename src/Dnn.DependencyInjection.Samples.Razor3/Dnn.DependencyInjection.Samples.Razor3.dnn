@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Dnn.DependencyInjection.Samples.Razor3" type="Module" version="00.00.01">
+    <package name="Dnn.DependencyInjection.Samples.Razor3" type="Module" version="00.00.02">
       <friendlyName>Dependency Injection Sample - Razor3</friendlyName>
       <description>Dependency Injection Sample - Razor3</description>
       <iconFile>Images\extension.png</iconFile>
@@ -37,7 +37,7 @@
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/Razor3/Index.html</controlSrc>
+                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/Razor3/Views/Index.cshtml</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle>Index</controlTitle>
                     <controlType>View</controlType>
