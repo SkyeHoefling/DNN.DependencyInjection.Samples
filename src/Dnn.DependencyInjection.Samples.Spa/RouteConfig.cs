@@ -1,12 +1,12 @@
-using DotNetNuke.Web.Mvc.Routing;
+using DotNetNuke.Web.Api;
 
 namespace Dnn.DependencyInjection.Samples.Spa
 {
-    public class RouteConfig : IMvcRouteMapper
+    public class RouteConfig : IServiceRouteMapper
     {
         public void RegisterRoutes(IMapRoute mapRouteManager)
         {
-            mapRouteManager.MapRoute("Dnn.DependencyInjection.Samples.Spa", "Dnn.DependencyInjection.Samples.Spa", "{controller}/{action}", new[]
+            mapRouteManager.MapHttpRoute("Dnn.DependencyInjection.Samples/Spa", "default", "{controller}/{action}", new[]
             {"Dnn.DependencyInjection.Samples.Spa.Controllers"});
         }
     }

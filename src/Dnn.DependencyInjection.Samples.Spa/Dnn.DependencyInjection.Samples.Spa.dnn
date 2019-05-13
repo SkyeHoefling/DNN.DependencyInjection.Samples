@@ -1,8 +1,8 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
     <package name="Dnn.DependencyInjection.Samples.Spa" type="Module" version="00.00.01">
-      <friendlyName>Dependency Injection Sample - SPA Anuglar</friendlyName>
-      <description>Dependency Injection Sample - SPA Angular</description>
+      <friendlyName>Dependency Injection Sample - SPA</friendlyName>
+      <description>Dependency Injection Sample - SPA</description>
       <iconFile>Images\extension.png</iconFile>
       <owner>
         <name>Andrew Hoefling</name>
@@ -19,7 +19,7 @@
 
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/Dnn.DependencyInjection.Samples/SPA Angular</basePath>
+            <basePath>DesktopModules/Dnn.DependencyInjection.Samples/SPA</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>
@@ -27,17 +27,17 @@
         </component>
         <component type="Module">
           <desktopModule>
-            <moduleName>Dependency Injection Sample - SPA Angular Module</moduleName>
-            <foldername>Dnn.DependencyInjection.Samples/SPA Angular</foldername>
+            <moduleName>Dependency Injection Sample - SPA Module</moduleName>
+            <foldername>Dnn.DependencyInjection.Samples/SPA</foldername>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>Dependency Injection Sample - SPA Angular Module</friendlyName>
+                <friendlyName>Dependency Injection Sample - SPA Module</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/SPA Angular/Index.html</controlSrc>
+                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/SPA/Index.html</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle>Index</controlTitle>
                     <controlType>View</controlType>
