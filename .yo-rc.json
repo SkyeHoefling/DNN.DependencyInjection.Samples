@@ -1,9 +1,0 @@
-{
-  "generator-dnn": {
-    "promptValues": {
-      "company": "Dnn.DependencyInjection.Samples.Mvc",
-      "companyUrl": "andrewhoefling.com",
-      "emailAddy": "andrew@hoefling.me"
-    }
-  }
-}
