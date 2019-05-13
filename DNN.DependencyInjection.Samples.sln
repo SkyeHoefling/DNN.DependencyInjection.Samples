@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		src\Dnn.DependencyInjection.Samples.WebForms\cake.config = src\Dnn.DependencyInjection.Samples.WebForms\cake.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.Spa", "src\Dnn.DependencyInjection.Samples.Spa\Dnn.DependencyInjection.Samples.Spa.csproj", "{917172A2-6DBD-4021-8AF2-E112B3E21C4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dnn.DependencyInjection.Samples.Razor3", "src\Dnn.DependencyInjection.Samples.Razor3\Dnn.DependencyInjection.Samples.Razor3.csproj", "{917172A2-6DBD-4021-8AF2-E112B3E21C4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
