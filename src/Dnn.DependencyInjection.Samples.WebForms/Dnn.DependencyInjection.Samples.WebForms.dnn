@@ -1,9 +1,9 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Dnn.DependencyInjection.Samples.Spa" type="Module" version="00.00.03">
-      <friendlyName>Dependency Injection Sample - SPA</friendlyName>
-      <description>Dependency Injection Sample - SPA</description>
-      <iconFile>Images\extension.png</iconFile>
+    <package name="Dnn.DependencyInjection.Samples.WebForms" type="Module" version="00.00.01">
+      <friendlyName>Dependency Injection Sample Web Forms</friendlyName>
+      <description>Dependency Injection Sample Web Forms</description>
+      <iconFile>Images/extension.png</iconFile>
       <owner>
         <name>Andrew Hoefling</name>
         <organization>Andrew Hoefling</organization>
@@ -16,33 +16,45 @@
         <dependency type="CoreVersion">06.00.00</dependency>
       </dependencies>
       <components>
-
+        
         <component type="ResourceFile">
           <resourceFiles>
-            <basePath>DesktopModules/Dnn.DependencyInjection.Samples/SPA</basePath>
+            <basePath>DesktopModules/Dnn.DependencyInjection.Samples/WebForms</basePath>
             <resourceFile>
               <name>Resources.zip</name>
             </resourceFile>
           </resourceFiles>
         </component>
+
         <component type="Module">
           <desktopModule>
-            <moduleName>Dependency Injection Sample - SPA Module</moduleName>
-            <foldername>Dnn.DependencyInjection.Samples/SPA</foldername>
+            <moduleName>Dependency Injection Sample - Web Forms Module</moduleName>
+            <foldername>Dnn.DependencyInjection.Samples/WebForms</foldername>
             <supportedFeatures />
             <moduleDefinitions>
               <moduleDefinition>
-                <friendlyName>Dependency Injection Sample - SPA Module</friendlyName>
+                <friendlyName>Dependency Injection Sample - Web Forms Module</friendlyName>
                 <defaultCacheTime>0</defaultCacheTime>
                 <moduleControls>
                   <moduleControl>
                     <controlKey />
-                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/SPA/Index.html</controlSrc>
+                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/WebForms/View.ascx</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
-                    <controlTitle>Index</controlTitle>
+                    <controlTitle />
                     <controlType>View</controlType>
                     <iconFile />
                     <helpUrl />
+                    <viewOrder>0</viewOrder>
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Settings</controlKey>
+                    <controlSrc>DesktopModules/Dnn.DependencyInjection.Samples/WebForms/Settings.ascx</controlSrc>
+                    <supportsPartialRendering>False</supportsPartialRendering>
+                    <controlTitle>Dnn.DependencyInjection.Samples.WebForms Settings</controlTitle>
+                    <controlType>Edit</controlType>
+                    <iconFile />
+                    <helpUrl />
+                    <viewOrder>0</viewOrder>
                   </moduleControl>
                 </moduleControls>
               </moduleDefinition>
@@ -53,7 +65,7 @@
           <assemblies>
             <basePath>bin</basePath>
             <assembly>
-              <name>Dnn.DependencyInjection.Samples.Spa.dll</name>
+              <name>Dnn.DependencyInjection.Samples.WebForms.dll</name>
             </assembly>
           </assemblies>
         </component>

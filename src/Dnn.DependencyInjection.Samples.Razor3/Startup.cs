@@ -11,6 +11,9 @@ namespace Dnn.DependencyInjection.Samples.Razor3
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IMessageService, MessageService>();
+
+            // IndexModel registration is required for 
+            // constructor injection to work
             services.AddScoped<IndexModel>();
         }
     }
