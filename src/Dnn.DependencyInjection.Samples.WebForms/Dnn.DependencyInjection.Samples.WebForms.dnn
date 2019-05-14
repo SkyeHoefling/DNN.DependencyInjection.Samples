@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="Dnn.DependencyInjection.Samples.WebForms" type="Module" version="00.00.01">
+    <package name="Dnn.DependencyInjection.Samples.WebForms" type="Module" version="00.00.02">
       <friendlyName>Dependency Injection Sample Web Forms</friendlyName>
       <description>Dependency Injection Sample Web Forms</description>
       <iconFile>Images/extension.png</iconFile>
