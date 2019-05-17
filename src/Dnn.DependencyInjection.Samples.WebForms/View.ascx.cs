@@ -14,7 +14,7 @@ namespace Dnn.DependencyInjection.Samples.WebForms
             MessageService = Globals.DependencyProvider.GetService<IMessageService>();
         }
 
-        protected void Page_load(object sender, System.EventArgs e)
+        protected void Page_Load(object sender, System.EventArgs e)
         {
             if (IsPostBack)
                 return;
