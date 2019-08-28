@@ -11,7 +11,7 @@ namespace Dnn.DependencyInjection.Samples.WebForms
 
         public View()
         {
-            MessageService = Globals.DependencyProvider.GetService<IMessageService>();
+            MessageService = DependencyProvider.GetService<IMessageService>();
         }
 
         protected void Page_Load(object sender, System.EventArgs e)
