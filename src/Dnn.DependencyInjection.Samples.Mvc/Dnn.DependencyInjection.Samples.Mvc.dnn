@@ -46,7 +46,7 @@
                   </moduleControl>
                   <moduleControl>
                     <controlKey>Settings</controlKey>
-                    <controlSrc>Views/Settings/Index.mvc</controlSrc>
+                    <controlSrc>Views/Settings/Settings.mvc</controlSrc>
                     <supportsPartialRendering>False</supportsPartialRendering>
                     <controlTitle>Settings</controlTitle>
                     <controlType>Edit</controlType>
