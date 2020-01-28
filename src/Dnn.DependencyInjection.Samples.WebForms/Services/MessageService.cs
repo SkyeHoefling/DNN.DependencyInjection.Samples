@@ -6,7 +6,7 @@ namespace Dnn.DependencyInjection.Samples.WebForms.Services
     {
         public string GetMessage()
         {
-            return "Hell from Dependency Injection World!!";
+            return "Hello from Dependency Injection World!!";
         }
     }
 }
