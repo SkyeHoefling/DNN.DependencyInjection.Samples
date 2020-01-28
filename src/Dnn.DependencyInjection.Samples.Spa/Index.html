@@ -1,7 +1,7 @@
 ﻿<h1 id="module-message"></h1>
 <script>
     $(document).ready(function () {
-        $.get('DesktopModules/Dnn.DependencyInjection.Samples/Spa/API/Home/get', function (data) {
+        $.get('/DesktopModules/Dnn.DependencyInjection.Samples/Spa/API/Home/get', function (data) {
             $('#module-message').html(data);
         });
     });
